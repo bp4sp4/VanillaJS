@@ -1,12 +1,10 @@
-const a = 5;
-const b = 2;
-let myName = "Jin"
+const player = {
+    name : "nico",
+    points : 10,
+    fat : true,
+};
 
-console.log(a+b);
-console.log(a*b);
-console.log(a/b); 
+console.log(player);
 
-console.log("hello " + myName);
-
-myName = "SangHun"
-console.log("my new name is " + myName);
+player.points = player.points + 15;
+console.log(player);
