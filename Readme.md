@@ -2,10 +2,39 @@
 
 <h1>23/08/03</h1>
 <h1>2일차 기초적인부분 공부</h1>
-<h2>Booleans, Array, Objects</h2>
+<h2>Booleans, Array, Objects, function</h2>
+<h3>function</h3>
+<pre>
+<code>
+function sayHello(nameOfPerson, age){
+    console.log("Hello my name is" + nameOfPerson + " I'm " + age);
+}
+
+sayHello("nico", 15);
+sayHello("da;", 23);
+sayHello("lynn", 21);
+
+</code>
+</pre>
+
 <h3>Obejcts</h3>
 <pre>
 <code>
+//예제코드 2번 :  밖에서 데이터를 받는방법
+const player = {
+    name : "SangHun",
+    sayHello : function(otherPersonsName){
+        console.log("Hello " + otherPersonsName + " nice to meet you");
+    }
+}
+
+console.log(player.name);
+player.sayHello("lynn");
+player.sayHello("nico");
+
+
+//에제코드 1번 : functon 생성 데이터 추가
+
 const player = {
     name : "nico",
     points : 10,

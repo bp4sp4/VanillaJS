@@ -1,10 +1,10 @@
 const player = {
-    name : "nico",
-    points : 10,
-    fat : true,
-};
+    name : "SangHun",
+    sayHello : function(otherPersonsName){
+        console.log("Hello " + otherPersonsName + " nice to meet you");
+    }
+}
 
-console.log(player);
-
-player.points = player.points + 15;
-console.log(player);
+console.log(player.name);
+player.sayHello("lynn");
+player.sayHello("nico");
