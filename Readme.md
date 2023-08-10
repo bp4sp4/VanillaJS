@@ -1,6 +1,8 @@
 # VannillaJS
+<h1>23/08/10</h1>
+<h1>본격적인 앱만들기 시작</h1>
 
-<h1>23/08/03</h1>
+<h1>23/08/010</h1>
 <h1>2일차 기초적인부분 공부</h1>
 <h2>Booleans, Array, Objects, function</h2>
 <h3>function</h3>
@@ -57,7 +59,8 @@ console.log(player);
 <li>Booleans 는  True, False</li>
 <li>array 는 0번째부터 시작</li>
 </ul>
-
+<hr>
+<h1>23/08/03</h1>
 <h1>1일차 기초적인부분 복습</h1>
 <h2>let, const 차이점</h2>
 <ul>
