@@ -2,9 +2,9 @@
 <h1>23/08/10</h1>
 <h3>본격적인 앱만들기 시작</h3>
 
-
-<h1>2일차 기초적인부분 공부</h1>
-<P>Booleans, Array, Objects, function</p>
+<h1>23/08/09</h1>
+<h3>2일차 기초적인부분 공부</h3>
+<h3>Booleans, Array, Objects, function</h3>
 <h3>function</h3>
 <pre>
 <code>
