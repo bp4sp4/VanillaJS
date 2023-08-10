@@ -1,10 +1,10 @@
 # VannillaJS
 <h1>23/08/10</h1>
-<h1>본격적인 앱만들기 시작</h1>
+<h3>본격적인 앱만들기 시작</h3>
 
-<h1>23/08/010</h1>
+
 <h1>2일차 기초적인부분 공부</h1>
-<h2>Booleans, Array, Objects, function</h2>
+<P>Booleans, Array, Objects, function</p>
 <h3>function</h3>
 <pre>
 <code>
@@ -61,8 +61,8 @@ console.log(player);
 </ul>
 <hr>
 <h1>23/08/03</h1>
-<h1>1일차 기초적인부분 복습</h1>
-<h2>let, const 차이점</h2>
+<h3>1일차 기초적인부분 복습</h3>
+<h3>let, const 차이점</h3>
 <ul>
 <li>업데이트가 가능한 변수 let</li>
 <li>업데이트가 불간으한 변수 const</li>
