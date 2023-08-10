@@ -7,7 +7,7 @@ const USERNAME_KEY = "username"; // 유저네임이 중복으로 사용되기 �
 
 // form login 버튼을 눌렀을때 발생하는 이벤트
 function onLoginSubmit(event) {
-    // 새로고침 중지
+    // 브라우저를 이벤트를 막음
     event.preventDefault();
     // 로그인폼의 input 클래스 히든을 표시
     loginForm.classList.add(HiDDEN_CLASSNAME);
