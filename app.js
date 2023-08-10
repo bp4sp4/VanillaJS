@@ -1,22 +1,18 @@
-const calculator= {
-    add : function(a, b){
-        console.log(a+b);
-    },
-    minus : function(a, b){
-        console.log(a-b);
-    },
-    divide : function(a, b) {
-        console.log(a | b);
-    },
-    gob : function(a,b) {
-        console.log(a*b);
-    },
-    power : function(a,b){
-        console.log(a ** b);
-    }
-};
-calculator.add(5,1);
-calculator.minus(3,1);
-calculator.divide(5/2);
-calculator.gob(3, 6);
-calculator.power(3,5)
+const loginForm =  document.querySelector("#login-form");
+const loginInput = document.querySelector("#login-form input");
+const greeting = document.querySelector("#greeting");
+
+const HiDDEN_CLASSNAME = "hidden";
+
+function onLoginSubmit(event) {
+    event.preventDefault();
+    loginForm.classList.add(HiDDEN_CLASSNAME);
+    const username = loginInput.value;
+    greeting.innerText = `Hello ${username}`;
+    greeting.classList.remove(HiDDEN_CLASSNAME);
+}
+
+
+loginForm.addEventListener("submit", onLoginSubmit);
+
+
