@@ -1,11 +1,13 @@
 # VannillaJS
-
-
+<h3>작업 기간 23/08/9~11(3일)</h3>
+<h3>Next Study -> React</h3>
 <h1>23/08/11</h1>
 <ul>
 <li>랜덤 백그라운드 이미지</li>
 <li>랜덤 명언 노출</li>
 <li>ToDolist 생성, 삭제 가능 -> 아직 홈페이지 새고로침했을때 초기화됨 저장 기능 생성해야함</li>
+<li>todolist 작업 완료</li>
+<li>weather.js 추가 작업완료</li>
 </ul>
 
 <h1>23/08/10</h1>
